@@ -1,0 +1,265 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		85BF8C9D15AFC7220081D2EA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85BF8C9C15AFC7220081D2EA /* UIKit.framework */; };
+		85BF8C9F15AFC7220081D2EA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85BF8C9E15AFC7220081D2EA /* Foundation.framework */; };
+		85BF8CA115AFC7220081D2EA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85BF8CA015AFC7220081D2EA /* CoreGraphics.framework */; };
+		85BF8CA715AFC7220081D2EA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 85BF8CA515AFC7220081D2EA /* InfoPlist.strings */; };
+		85BF8CA915AFC7220081D2EA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 85BF8CA815AFC7220081D2EA /* main.m */; };
+		85BF8CAD15AFC7220081D2EA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 85BF8CAC15AFC7220081D2EA /* AppDelegate.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		85BF8C9815AFC7220081D2EA /* iChartApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iChartApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		85BF8C9C15AFC7220081D2EA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		85BF8C9E15AFC7220081D2EA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		85BF8CA015AFC7220081D2EA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		85BF8CA415AFC7220081D2EA /* iChartApp-Info.plist */ = {isa = PBXFileReference; path = "iChartApp-Info.plist"; sourceTree = "<group>"; };
+		85BF8CA615AFC7220081D2EA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		85BF8CA815AFC7220081D2EA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		85BF8CAA15AFC7220081D2EA /* iChartApp-Prefix.pch */ = {isa = PBXFileReference; path = "iChartApp-Prefix.pch"; sourceTree = "<group>"; };
+		85BF8CAB15AFC7220081D2EA /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		85BF8CAC15AFC7220081D2EA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		85BF8C9515AFC7220081D2EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85BF8C9D15AFC7220081D2EA /* UIKit.framework in Frameworks */,
+				85BF8C9F15AFC7220081D2EA /* Foundation.framework in Frameworks */,
+				85BF8CA115AFC7220081D2EA /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		85BF8C8D15AFC7220081D2EA = {
+			isa = PBXGroup;
+			children = (
+				85BF8CA215AFC7220081D2EA /* iChartApp */,
+				85BF8C9B15AFC7220081D2EA /* Frameworks */,
+				85BF8C9915AFC7220081D2EA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		85BF8C9915AFC7220081D2EA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				85BF8C9815AFC7220081D2EA /* iChartApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		85BF8C9B15AFC7220081D2EA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				85BF8C9C15AFC7220081D2EA /* UIKit.framework */,
+				85BF8C9E15AFC7220081D2EA /* Foundation.framework */,
+				85BF8CA015AFC7220081D2EA /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		85BF8CA215AFC7220081D2EA /* iChartApp */ = {
+			isa = PBXGroup;
+			children = (
+				85BF8CAB15AFC7220081D2EA /* AppDelegate.h */,
+				85BF8CAC15AFC7220081D2EA /* AppDelegate.m */,
+				85BF8CA315AFC7220081D2EA /* Supporting Files */,
+			);
+			path = iChartApp;
+			sourceTree = "<group>";
+		};
+		85BF8CA315AFC7220081D2EA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				85BF8CA415AFC7220081D2EA /* iChartApp-Info.plist */,
+				85BF8CA515AFC7220081D2EA /* InfoPlist.strings */,
+				85BF8CA815AFC7220081D2EA /* main.m */,
+				85BF8CAA15AFC7220081D2EA /* iChartApp-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		85BF8C9715AFC7220081D2EA /* iChartApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 85BF8CB015AFC7220081D2EA /* Build configuration list for PBXNativeTarget "iChartApp" */;
+			buildPhases = (
+				85BF8C9415AFC7220081D2EA /* Sources */,
+				85BF8C9515AFC7220081D2EA /* Frameworks */,
+				85BF8C9615AFC7220081D2EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iChartApp;
+			productName = iChartApp;
+			productReference = 85BF8C9815AFC7220081D2EA /* iChartApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		85BF8C8F15AFC7220081D2EA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 85BF8C9215AFC7220081D2EA /* Build configuration list for PBXProject "iChartApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 85BF8C8D15AFC7220081D2EA;
+			productRefGroup = 85BF8C9915AFC7220081D2EA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				85BF8C9715AFC7220081D2EA /* iChartApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		85BF8C9615AFC7220081D2EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85BF8CA715AFC7220081D2EA /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		85BF8C9415AFC7220081D2EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85BF8CA915AFC7220081D2EA /* main.m in Sources */,
+				85BF8CAD15AFC7220081D2EA /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		85BF8CA515AFC7220081D2EA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				85BF8CA615AFC7220081D2EA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		85BF8CAE15AFC7220081D2EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		85BF8CAF15AFC7220081D2EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		85BF8CB115AFC7220081D2EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iChartApp/iChartApp-Prefix.pch";
+				INFOPLIST_FILE = "iChartApp/iChartApp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		85BF8CB215AFC7220081D2EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iChartApp/iChartApp-Prefix.pch";
+				INFOPLIST_FILE = "iChartApp/iChartApp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		85BF8C9215AFC7220081D2EA /* Build configuration list for PBXProject "iChartApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85BF8CAE15AFC7220081D2EA /* Debug */,
+				85BF8CAF15AFC7220081D2EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		85BF8CB015AFC7220081D2EA /* Build configuration list for PBXNativeTarget "iChartApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85BF8CB115AFC7220081D2EA /* Debug */,
+				85BF8CB215AFC7220081D2EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 85BF8C8F15AFC7220081D2EA /* Project object */;
+}
