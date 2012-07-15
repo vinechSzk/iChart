@@ -3,11 +3,15 @@
 //  iChartApp
 //
 //  Created by bin huang on 12-7-13.
-//  Copyright (c) 2012年 __MyCompanyName__. All rights reserved.
+//  Copyright (c) 2012年 __Vinech__. All rights reserved.
 //
 
 #import "AppDelegate.h"
-
+#import "MarketViewController.h"
+#import "NewsAnalysisViewController.h"
+#import "TradeSignalsViewController.h"
+#import "ChartViewController.h"
+#import "SetupViewController.h"
 @implementation AppDelegate
 
 @synthesize window = _window;
@@ -17,6 +21,34 @@
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
+    
+    MarketViewController * marketV = [[MarketViewController alloc] init];
+    marketV.title = @"行情报价";
+    UINavigationController * ngaVmarket = [[UINavigationController alloc] initWithRootViewController:marketV];
+    
+    NewsAnalysisViewController * newsV = [[NewsAnalysisViewController alloc] init];
+    newsV.title  = @"新闻与分析";
+    UINavigationController * ngaVnews = [[UINavigationController alloc] initWithRootViewController:newsV];
+    
+    TradeSignalsViewController * tradeV = [[TradeSignalsViewController alloc] init];
+    tradeV.title = @"交易信号";
+    UINavigationController * ngaVtrade = [[UINavigationController alloc] initWithRootViewController:tradeV];
+    
+    ChartViewController * chartV = [[ChartViewController alloc] init];
+    chartV.title = @"图表";
+    UINavigationController * ngaVchart = [[UINavigationController alloc] initWithRootViewController:chartV];
+    
+    SetupViewController * setupV = [[SetupViewController alloc] init];
+    setupV.title = @"设置";
+    UINavigationController * ngaVsetup = [[UINavigationController alloc] initWithRootViewController:setupV];
+    
+    UITabBarController * tabbarV = [[UITabBarController alloc] init];
+    tabbarV.viewControllers = [NSArray arrayWithObjects:ngaVmarket,ngaVnews,ngaVtrade,ngaVchart,ngaVsetup, nil];
+    
+    self.window.rootViewController = tabbarV;
+    
+
+    
     [self.window makeKeyAndVisible];
     return YES;
 }

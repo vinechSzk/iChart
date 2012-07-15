@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8569E1F915B00804009FFFF9 /* SetupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8569E1F815B00804009FFFF9 /* SetupViewController.m */; };
+		8569E21115B00992009FFFF9 /* ChartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8569E1FC15B00992009FFFF9 /* ChartViewController.m */; };
+		8569E21215B00992009FFFF9 /* MarketTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8569E1FF15B00992009FFFF9 /* MarketTableViewController.m */; };
+		8569E21315B00992009FFFF9 /* MarketViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8569E20215B00992009FFFF9 /* MarketViewController.m */; };
+		8569E21415B00992009FFFF9 /* NewsAnalysisViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8569E20515B00992009FFFF9 /* NewsAnalysisViewController.m */; };
+		8569E21515B00992009FFFF9 /* MarketCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8569E20815B00992009FFFF9 /* MarketCell.m */; };
+		8569E21615B00992009FFFF9 /* TradeSignalCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8569E20A15B00992009FFFF9 /* TradeSignalCell.m */; };
+		8569E21715B00992009FFFF9 /* StoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8569E20D15B00992009FFFF9 /* StoryViewController.m */; };
+		8569E21815B00992009FFFF9 /* TradeSignalsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8569E21015B00992009FFFF9 /* TradeSignalsViewController.m */; };
 		85BF8C9D15AFC7220081D2EA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85BF8C9C15AFC7220081D2EA /* UIKit.framework */; };
 		85BF8C9F15AFC7220081D2EA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85BF8C9E15AFC7220081D2EA /* Foundation.framework */; };
 		85BF8CA115AFC7220081D2EA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85BF8CA015AFC7220081D2EA /* CoreGraphics.framework */; };
@@ -16,15 +25,39 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8569E1F715B00804009FFFF9 /* SetupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SetupViewController.h; sourceTree = "<group>"; };
+		8569E1F815B00804009FFFF9 /* SetupViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SetupViewController.m; sourceTree = "<group>"; };
+		8569E1FB15B00992009FFFF9 /* ChartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChartViewController.h; sourceTree = "<group>"; };
+		8569E1FC15B00992009FFFF9 /* ChartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChartViewController.m; sourceTree = "<group>"; };
+		8569E1FE15B00992009FFFF9 /* MarketTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MarketTableViewController.h; sourceTree = "<group>"; };
+		8569E1FF15B00992009FFFF9 /* MarketTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MarketTableViewController.m; sourceTree = "<group>"; };
+		8569E20115B00992009FFFF9 /* MarketViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MarketViewController.h; sourceTree = "<group>"; };
+		8569E20215B00992009FFFF9 /* MarketViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MarketViewController.m; sourceTree = "<group>"; };
+		8569E20415B00992009FFFF9 /* NewsAnalysisViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsAnalysisViewController.h; sourceTree = "<group>"; };
+		8569E20515B00992009FFFF9 /* NewsAnalysisViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsAnalysisViewController.m; sourceTree = "<group>"; };
+		8569E20715B00992009FFFF9 /* MarketCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MarketCell.h; sourceTree = "<group>"; };
+		8569E20815B00992009FFFF9 /* MarketCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MarketCell.m; sourceTree = "<group>"; };
+		8569E20915B00992009FFFF9 /* TradeSignalCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TradeSignalCell.h; sourceTree = "<group>"; };
+		8569E20A15B00992009FFFF9 /* TradeSignalCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TradeSignalCell.m; sourceTree = "<group>"; };
+		8569E20C15B00992009FFFF9 /* StoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StoryViewController.h; sourceTree = "<group>"; };
+		8569E20D15B00992009FFFF9 /* StoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StoryViewController.m; sourceTree = "<group>"; };
+		8569E20F15B00992009FFFF9 /* TradeSignalsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TradeSignalsViewController.h; sourceTree = "<group>"; };
+		8569E21015B00992009FFFF9 /* TradeSignalsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TradeSignalsViewController.m; sourceTree = "<group>"; };
+		8569E21915B00A6A009FFFF9 /* Header_chartvc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header_chartvc.h; sourceTree = "<group>"; };
+		8569E21A15B00B00009FFFF9 /* Header_marketdetail.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header_marketdetail.h; sourceTree = "<group>"; };
+		8569E21B15B00B22009FFFF9 /* Header_marketvc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header_marketvc.h; sourceTree = "<group>"; };
+		8569E21C15B00B5F009FFFF9 /* Header_storyvc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header_storyvc.h; sourceTree = "<group>"; };
+		8569E21D15B00BFC009FFFF9 /* Header_tradevc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header_tradevc.h; sourceTree = "<group>"; };
+		8569E21E15B00C28009FFFF9 /* Header_setupvc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header_setupvc.h; sourceTree = "<group>"; };
 		85BF8C9815AFC7220081D2EA /* iChartApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iChartApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		85BF8C9C15AFC7220081D2EA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		85BF8C9E15AFC7220081D2EA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		85BF8CA015AFC7220081D2EA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		85BF8CA415AFC7220081D2EA /* iChartApp-Info.plist */ = {isa = PBXFileReference; path = "iChartApp-Info.plist"; sourceTree = "<group>"; };
+		85BF8CA415AFC7220081D2EA /* iChartApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iChartApp-Info.plist"; sourceTree = "<group>"; };
 		85BF8CA615AFC7220081D2EA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		85BF8CA815AFC7220081D2EA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		85BF8CAA15AFC7220081D2EA /* iChartApp-Prefix.pch */ = {isa = PBXFileReference; path = "iChartApp-Prefix.pch"; sourceTree = "<group>"; };
-		85BF8CAB15AFC7220081D2EA /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		85BF8CAA15AFC7220081D2EA /* iChartApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iChartApp-Prefix.pch"; sourceTree = "<group>"; };
+		85BF8CAB15AFC7220081D2EA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		85BF8CAC15AFC7220081D2EA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -42,6 +75,86 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8569E1F615B00804009FFFF9 /* setupviewC */ = {
+			isa = PBXGroup;
+			children = (
+				8569E1F715B00804009FFFF9 /* SetupViewController.h */,
+				8569E1F815B00804009FFFF9 /* SetupViewController.m */,
+				8569E21E15B00C28009FFFF9 /* Header_setupvc.h */,
+			);
+			path = setupviewC;
+			sourceTree = "<group>";
+		};
+		8569E1FA15B00992009FFFF9 /* chartviewC */ = {
+			isa = PBXGroup;
+			children = (
+				8569E1FB15B00992009FFFF9 /* ChartViewController.h */,
+				8569E1FC15B00992009FFFF9 /* ChartViewController.m */,
+				8569E21915B00A6A009FFFF9 /* Header_chartvc.h */,
+			);
+			path = chartviewC;
+			sourceTree = "<group>";
+		};
+		8569E1FD15B00992009FFFF9 /* markettableviewC */ = {
+			isa = PBXGroup;
+			children = (
+				8569E1FE15B00992009FFFF9 /* MarketTableViewController.h */,
+				8569E1FF15B00992009FFFF9 /* MarketTableViewController.m */,
+				8569E21A15B00B00009FFFF9 /* Header_marketdetail.h */,
+			);
+			path = markettableviewC;
+			sourceTree = "<group>";
+		};
+		8569E20015B00992009FFFF9 /* marketviewC */ = {
+			isa = PBXGroup;
+			children = (
+				8569E20115B00992009FFFF9 /* MarketViewController.h */,
+				8569E20215B00992009FFFF9 /* MarketViewController.m */,
+				8569E21B15B00B22009FFFF9 /* Header_marketvc.h */,
+			);
+			path = marketviewC;
+			sourceTree = "<group>";
+		};
+		8569E20315B00992009FFFF9 /* newsanalysisviewC */ = {
+			isa = PBXGroup;
+			children = (
+				8569E20415B00992009FFFF9 /* NewsAnalysisViewController.h */,
+				8569E20515B00992009FFFF9 /* NewsAnalysisViewController.m */,
+			);
+			path = newsanalysisviewC;
+			sourceTree = "<group>";
+		};
+		8569E20615B00992009FFFF9 /* personalcell */ = {
+			isa = PBXGroup;
+			children = (
+				8569E20715B00992009FFFF9 /* MarketCell.h */,
+				8569E20815B00992009FFFF9 /* MarketCell.m */,
+				8569E20915B00992009FFFF9 /* TradeSignalCell.h */,
+				8569E20A15B00992009FFFF9 /* TradeSignalCell.m */,
+			);
+			path = personalcell;
+			sourceTree = "<group>";
+		};
+		8569E20B15B00992009FFFF9 /* storyviewC */ = {
+			isa = PBXGroup;
+			children = (
+				8569E20C15B00992009FFFF9 /* StoryViewController.h */,
+				8569E20D15B00992009FFFF9 /* StoryViewController.m */,
+				8569E21C15B00B5F009FFFF9 /* Header_storyvc.h */,
+			);
+			path = storyviewC;
+			sourceTree = "<group>";
+		};
+		8569E20E15B00992009FFFF9 /* tradesignalviewC */ = {
+			isa = PBXGroup;
+			children = (
+				8569E20F15B00992009FFFF9 /* TradeSignalsViewController.h */,
+				8569E21015B00992009FFFF9 /* TradeSignalsViewController.m */,
+				8569E21D15B00BFC009FFFF9 /* Header_tradevc.h */,
+			);
+			path = tradesignalviewC;
+			sourceTree = "<group>";
+		};
 		85BF8C8D15AFC7220081D2EA = {
 			isa = PBXGroup;
 			children = (
@@ -74,6 +187,7 @@
 			children = (
 				85BF8CAB15AFC7220081D2EA /* AppDelegate.h */,
 				85BF8CAC15AFC7220081D2EA /* AppDelegate.m */,
+				85BF8CB315AFC7830081D2EA /* datatype */,
 				85BF8CA315AFC7220081D2EA /* Supporting Files */,
 			);
 			path = iChartApp;
@@ -88,6 +202,21 @@
 				85BF8CAA15AFC7220081D2EA /* iChartApp-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		85BF8CB315AFC7830081D2EA /* datatype */ = {
+			isa = PBXGroup;
+			children = (
+				8569E20615B00992009FFFF9 /* personalcell */,
+				8569E1FA15B00992009FFFF9 /* chartviewC */,
+				8569E1FD15B00992009FFFF9 /* markettableviewC */,
+				8569E20015B00992009FFFF9 /* marketviewC */,
+				8569E20315B00992009FFFF9 /* newsanalysisviewC */,
+				8569E20B15B00992009FFFF9 /* storyviewC */,
+				8569E20E15B00992009FFFF9 /* tradesignalviewC */,
+				8569E1F615B00804009FFFF9 /* setupviewC */,
+			);
+			path = datatype;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -153,6 +282,15 @@
 			files = (
 				85BF8CA915AFC7220081D2EA /* main.m in Sources */,
 				85BF8CAD15AFC7220081D2EA /* AppDelegate.m in Sources */,
+				8569E1F915B00804009FFFF9 /* SetupViewController.m in Sources */,
+				8569E21115B00992009FFFF9 /* ChartViewController.m in Sources */,
+				8569E21215B00992009FFFF9 /* MarketTableViewController.m in Sources */,
+				8569E21315B00992009FFFF9 /* MarketViewController.m in Sources */,
+				8569E21415B00992009FFFF9 /* NewsAnalysisViewController.m in Sources */,
+				8569E21515B00992009FFFF9 /* MarketCell.m in Sources */,
+				8569E21615B00992009FFFF9 /* TradeSignalCell.m in Sources */,
+				8569E21715B00992009FFFF9 /* StoryViewController.m in Sources */,
+				8569E21815B00992009FFFF9 /* TradeSignalsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,6 +396,7 @@
 				85BF8CB215AFC7220081D2EA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
